@@ -41,6 +41,7 @@ public class Demo1 {
 		frmFirst.getContentPane().setLayout(null);
 		
 		JButton btnNewButton = new JButton("For Donation Visit Our Page");
+		//Use your index html page location below.
 		File urlDesktop=new File("C:/Users/Sudheer/Desktop/Code-Clause/PAYMENT GATEWAY INTEGRATION/index.html");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
