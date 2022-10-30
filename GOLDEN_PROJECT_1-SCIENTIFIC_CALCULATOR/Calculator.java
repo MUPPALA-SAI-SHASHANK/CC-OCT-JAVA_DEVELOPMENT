@@ -10,7 +10,7 @@ public class Calculator extends javax.swing.JFrame {
         initComponents();
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
         disp = new javax.swing.JLabel();
         clear = new javax.swing.JButton();
@@ -50,13 +50,13 @@ public class Calculator extends javax.swing.JFrame {
         setBackground(new java.awt.Color(204, 204, 204));
         setResizable(false);
         disp.setBackground(new java.awt.Color(51, 51, 51));
-        disp.setFont(new java.awt.Font("Garamond", 0, 36)); // NOI18N
+        disp.setFont(new java.awt.Font("Garamond", 0, 36));
         disp.setForeground(new java.awt.Color(255, 255, 255));
         disp.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 253, 153), 2, true));
         disp.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         disp.setOpaque(true);
         clear.setBackground(new java.awt.Color(0, 253, 153));
-        clear.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        clear.setFont(new java.awt.Font("Arial", 0, 18));
         clear.setText("AC");
         clear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +64,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         plus.setBackground(new java.awt.Color(102, 102, 102));
-        plus.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        plus.setFont(new java.awt.Font("Arial", 0, 18));
         plus.setForeground(new java.awt.Color(255, 255, 255));
         plus.setText("+");
         plus.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         minus.setBackground(new java.awt.Color(102, 102, 102));
-        minus.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        minus.setFont(new java.awt.Font("Arial", 0, 18));
         minus.setForeground(new java.awt.Color(255, 255, 255));
         minus.setText("-");
         minus.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +82,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         backspace.setBackground(new java.awt.Color(0, 253, 153));
-        backspace.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        backspace.setFont(new java.awt.Font("Arial", 0, 18));
         backspace.setText("CE");
         backspace.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +90,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         div.setBackground(new java.awt.Color(102, 102, 102));
-        div.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        div.setFont(new java.awt.Font("Arial", 0, 18));
         div.setForeground(new java.awt.Color(255, 255, 255));
         div.setText("/");
         div.addActionListener(new java.awt.event.ActionListener() {
@@ -99,7 +99,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         mult.setBackground(new java.awt.Color(102, 102, 102));
-        mult.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        mult.setFont(new java.awt.Font("Arial", 0, 18));
         mult.setForeground(new java.awt.Color(255, 255, 255));
         mult.setText("x");
         mult.addActionListener(new java.awt.event.ActionListener() {
@@ -108,7 +108,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n6.setBackground(new java.awt.Color(102, 102, 102));
-        n6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n6.setFont(new java.awt.Font("Arial", 0, 18));
         n6.setForeground(new java.awt.Color(255, 255, 255));
         n6.setText("6");
         n6.addActionListener(new java.awt.event.ActionListener() {
@@ -117,7 +117,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n3.setBackground(new java.awt.Color(102, 102, 102));
-        n3.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n3.setFont(new java.awt.Font("Arial", 0, 18));
         n3.setForeground(new java.awt.Color(255, 255, 255));
         n3.setText("3");
         n3.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +126,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n9.setBackground(new java.awt.Color(102, 102, 102));
-        n9.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n9.setFont(new java.awt.Font("Arial", 0, 18));
         n9.setForeground(new java.awt.Color(255, 255, 255));
         n9.setText("9");
         n9.addActionListener(new java.awt.event.ActionListener() {
@@ -135,7 +135,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         eq.setBackground(new java.awt.Color(0, 253, 153));
-        eq.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        eq.setFont(new java.awt.Font("Arial", 0, 18));
         eq.setText("=");
         eq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,7 +143,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         inverse.setBackground(new java.awt.Color(102, 102, 102));
-        inverse.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        inverse.setFont(new java.awt.Font("Arial", 0, 18));
         inverse.setForeground(new java.awt.Color(255, 255, 255));
         inverse.setText("1/x");
         inverse.addActionListener(new java.awt.event.ActionListener() {
@@ -152,7 +152,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         dec.setBackground(new java.awt.Color(102, 102, 102));
-        dec.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        dec.setFont(new java.awt.Font("Arial", 0, 18));
         dec.setForeground(new java.awt.Color(255, 255, 255));
         dec.setText(".");
         dec.addActionListener(new java.awt.event.ActionListener() {
@@ -161,7 +161,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n2.setBackground(new java.awt.Color(102, 102, 102));
-        n2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n2.setFont(new java.awt.Font("Arial", 0, 18));
         n2.setForeground(new java.awt.Color(255, 255, 255));
         n2.setText("2");
         n2.addActionListener(new java.awt.event.ActionListener() {
@@ -170,7 +170,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n5.setBackground(new java.awt.Color(102, 102, 102));
-        n5.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n5.setFont(new java.awt.Font("Arial", 0, 18));
         n5.setForeground(new java.awt.Color(255, 255, 255));
         n5.setText("5");
         n5.addActionListener(new java.awt.event.ActionListener() {
@@ -179,7 +179,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n8.setBackground(new java.awt.Color(102, 102, 102));
-        n8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n8.setFont(new java.awt.Font("Arial", 0, 18));
         n8.setForeground(new java.awt.Color(255, 255, 255));
         n8.setText("8");
         n8.addActionListener(new java.awt.event.ActionListener() {
@@ -188,7 +188,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         power.setBackground(new java.awt.Color(102, 102, 102));
-        power.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        power.setFont(new java.awt.Font("Arial", 0, 18));
         power.setForeground(new java.awt.Color(255, 255, 255));
         power.setText("^");
         power.addActionListener(new java.awt.event.ActionListener() {
@@ -197,7 +197,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n0.setBackground(new java.awt.Color(102, 102, 102));
-        n0.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n0.setFont(new java.awt.Font("Arial", 0, 18));
         n0.setForeground(new java.awt.Color(255, 255, 255));
         n0.setText("0");
         n0.addActionListener(new java.awt.event.ActionListener() {
@@ -206,7 +206,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n1.setBackground(new java.awt.Color(102, 102, 102));
-        n1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n1.setFont(new java.awt.Font("Arial", 0, 18));
         n1.setForeground(new java.awt.Color(255, 255, 255));
         n1.setText("1");
         n1.addActionListener(new java.awt.event.ActionListener() {
@@ -215,7 +215,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n4.setBackground(new java.awt.Color(102, 102, 102));
-        n4.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n4.setFont(new java.awt.Font("Arial", 0, 18));
         n4.setForeground(new java.awt.Color(255, 255, 255));
         n4.setText("4");
         n4.addActionListener(new java.awt.event.ActionListener() {
@@ -224,7 +224,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         n7.setBackground(new java.awt.Color(102, 102, 102));
-        n7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        n7.setFont(new java.awt.Font("Arial", 0, 18));
         n7.setForeground(new java.awt.Color(255, 255, 255));
         n7.setText("7");
         n7.setMaximumSize(new java.awt.Dimension(63, 36));
@@ -234,7 +234,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         facto.setBackground(new java.awt.Color(102, 102, 102));
-        facto.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        facto.setFont(new java.awt.Font("Arial", 0, 18));
         facto.setForeground(new java.awt.Color(255, 255, 255));
         facto.setText("x!");
         facto.addActionListener(new java.awt.event.ActionListener() {
@@ -243,7 +243,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         root.setBackground(new java.awt.Color(102, 102, 102));
-        root.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        root.setFont(new java.awt.Font("Arial", 0, 18));
         root.setForeground(new java.awt.Color(255, 255, 255));
         root.setText("√");
         root.addActionListener(new java.awt.event.ActionListener() {
@@ -252,7 +252,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         pi.setBackground(new java.awt.Color(102, 102, 102));
-        pi.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        pi.setFont(new java.awt.Font("Arial", 0, 18));
         pi.setForeground(new java.awt.Color(255, 255, 255));
         pi.setText("π");
         pi.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +261,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         tan.setBackground(new java.awt.Color(102, 102, 102));
-        tan.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tan.setFont(new java.awt.Font("Arial", 0, 18));
         tan.setForeground(new java.awt.Color(255, 255, 255));
         tan.setText("tan");
         tan.addActionListener(new java.awt.event.ActionListener() {
@@ -270,7 +270,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         sin.setBackground(new java.awt.Color(102, 102, 102));
-        sin.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        sin.setFont(new java.awt.Font("Arial", 0, 18));
         sin.setForeground(new java.awt.Color(255, 255, 255));
         sin.setText("sin");
         sin.addActionListener(new java.awt.event.ActionListener() {
@@ -279,7 +279,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         ln.setBackground(new java.awt.Color(102, 102, 102));
-        ln.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        ln.setFont(new java.awt.Font("Arial", 0, 18));
         ln.setForeground(new java.awt.Color(255, 255, 255));
         ln.setText("ln");
         ln.addActionListener(new java.awt.event.ActionListener() {
@@ -288,7 +288,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         log.setBackground(new java.awt.Color(102, 102, 102));
-        log.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        log.setFont(new java.awt.Font("Arial", 0, 18));
         log.setForeground(new java.awt.Color(255, 255, 255));
         log.setText("log");
         log.addActionListener(new java.awt.event.ActionListener() {
@@ -297,10 +297,10 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         Operationlabel.setBackground(new java.awt.Color(193, 193, 193));
-        Operationlabel.setFont(new java.awt.Font("Georgia", 0, 20)); // NOI18N
+        Operationlabel.setFont(new java.awt.Font("Georgia", 0, 20));
         Operationlabel.setOpaque(true);
         cos.setBackground(new java.awt.Color(102, 102, 102));
-        cos.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cos.setFont(new java.awt.Font("Arial", 0, 18));
         cos.setForeground(new java.awt.Color(255, 255, 255));
         cos.setText("cos");
         cos.addActionListener(new java.awt.event.ActionListener() {
@@ -309,7 +309,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         closingbrac.setBackground(new java.awt.Color(102, 102, 102));
-        closingbrac.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        closingbrac.setFont(new java.awt.Font("Arial", 0, 18));
         closingbrac.setForeground(new java.awt.Color(255, 255, 255));
         closingbrac.setText(")");
         closingbrac.addActionListener(new java.awt.event.ActionListener() {
@@ -318,7 +318,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
         Openingbrac.setBackground(new java.awt.Color(102, 102, 102));
-        Openingbrac.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        Openingbrac.setFont(new java.awt.Font("Arial", 0, 18));
         Openingbrac.setForeground(new java.awt.Color(255, 255, 255));
         Openingbrac.setText("(");
         Openingbrac.addActionListener(new java.awt.event.ActionListener() {
@@ -461,97 +461,97 @@ public class Calculator extends javax.swing.JFrame {
                 .addContainerGap())
         );
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-    private void n5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n5ActionPerformed
+    }
+    private void n5ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n5.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n5.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n5ActionPerformed
-    private void n8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n8ActionPerformed
+    }
+    private void n8ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n8.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n8.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n8ActionPerformed
-    private void tanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tanActionPerformed
+    }
+    private void tanActionPerformed(java.awt.event.ActionEvent evt) {
         disp.setText("tan ( ");
         String s= Operationlabel.getText()+"tan ( ";
         Operationlabel.setText(s);
-    }//GEN-LAST:event_tanActionPerformed
-    private void n0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n0ActionPerformed
+    }
+    private void n0ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n0.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n0.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n0ActionPerformed
-    private void n1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n1ActionPerformed
+    }
+    private void n1ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n1.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n1.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n1ActionPerformed
-    private void n2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n2ActionPerformed
+    }
+    private void n2ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n2.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n2.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n2ActionPerformed
-    private void n3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n3ActionPerformed
+    }
+    private void n3ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n3.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n3.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n3ActionPerformed
-    private void n4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n4ActionPerformed
+    }
+    private void n4ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n4.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n4.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n4ActionPerformed
-    private void n6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n6ActionPerformed
+    }
+    private void n6ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n6.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n6.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n6ActionPerformed
-    private void n7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n7ActionPerformed
+    }
+    private void n7ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n7.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n7.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n7ActionPerformed
-    private void n9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_n9ActionPerformed
+    }
+    private void n9ActionPerformed(java.awt.event.ActionEvent evt) {
         String s= disp.getText()+n9.getText();
         disp.setText(s);
         String s2=Operationlabel.getText()+n9.getText();
         Operationlabel.setText(s2);
-    }//GEN-LAST:event_n9ActionPerformed
-    private void plusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plusActionPerformed
+    }
+    private void plusActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" + ";
         Operationlabel.setText(s);
         disp.setText("");
-    }//GEN-LAST:event_plusActionPerformed
-    private void minusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_minusActionPerformed
+    }
+    private void minusActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" - ";
         Operationlabel.setText(s);
         disp.setText("");
-    }//GEN-LAST:event_minusActionPerformed
-    private void multActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multActionPerformed
+    }
+    private void multActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" * ";
         Operationlabel.setText(s);        
         disp.setText("");
-    }//GEN-LAST:event_multActionPerformed
-    private void divActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divActionPerformed
+    }
+    private void divActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" / ";
         Operationlabel.setText(s);
         disp.setText("");
-    }//GEN-LAST:event_divActionPerformed
-    private void powerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_powerActionPerformed
+    }
+    private void powerActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" ^ ";
         Operationlabel.setText(s);
         disp.setText("");
-    }//GEN-LAST:event_powerActionPerformed
+    }
     private Double applyOpr1(String opr, Double n) 
     {
         Double nd;
@@ -615,7 +615,7 @@ public class Calculator extends javax.swing.JFrame {
                 return 0.0;
         }
     }
-    private static int prec(String opr) //returns the precedence of respective operators
+    private static int prec(String opr) 
     {
         if(opr.equals("+") || opr.equals("-"))
             return 1;
@@ -637,12 +637,12 @@ public class Calculator extends javax.swing.JFrame {
         Stack<String> ops = new Stack<String>();
         for(int i=0;i<elements.length;i++)
         {
-            if(elements[i].equals("") || elements[i].equals(" ")) //ignoring null elements or whitespaces
+            if(elements[i].equals("") || elements[i].equals(" ")) 
                 continue;
-            boolean isNum = elements[i].matches("[-+]?[0-9]*\\.?[0-9]+"); //checks if it is a number 
+            boolean isNum = elements[i].matches("[-+]?[0-9]*\\.?[0-9]+"); 
             if(isNum)
             {
-                values.push(Double.parseDouble(elements[i]));           //pushing operands into values stack
+                values.push(Double.parseDouble(elements[i]));          
             } 
             else if(elements[i].equals("("))
             {
@@ -650,7 +650,7 @@ public class Calculator extends javax.swing.JFrame {
             }
             else if(elements[i].equals(")"))
             {
-                while(!ops.peek().equals("("))    //all equations inside the brackets are solved
+                while(!ops.peek().equals("("))    
                 {
                     if(ops.peek().equals("+") || ops.peek().equals("-") || ops.peek().equals("*") || ops.peek().equals("/") || ops.peek().equals("^") )
                     {
@@ -663,7 +663,7 @@ public class Calculator extends javax.swing.JFrame {
                 }
                 ops.pop();
             }
-            else{     //if it is an operator
+            else{     
                 while(!ops.empty() && prec(elements[i])<=prec(ops.peek()))
                 {
                     if(ops.peek().equals("+") || ops.peek().equals("-") || ops.peek().equals("*") || ops.peek().equals("/") || ops.peek().equals("^") )
@@ -691,39 +691,39 @@ public class Calculator extends javax.swing.JFrame {
         }
         return values.pop();
     }
-    private void eqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eqActionPerformed
+    private void eqActionPerformed(java.awt.event.ActionEvent evt) {
         ans=ExpressionSolver(Operationlabel.getText());
         result= String.format("%.4f", ans);
         disp.setText(result);
-    }//GEN-LAST:event_eqActionPerformed
-    private void piActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_piActionPerformed
+    }
+    private void piActionPerformed(java.awt.event.ActionEvent evt) {
         Double p=Math.PI;
         String x= disp.getText()+String.valueOf(p);
         String s= disp.getText()+String.valueOf(p);
         Operationlabel.setText(s);
         disp.setText(x);
-    }//GEN-LAST:event_piActionPerformed
-    private void rootActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rootActionPerformed
+    }
+    private void rootActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"√ ( ";
         Operationlabel.setText(s);
         disp.setText("√ ( ");
-    }//GEN-LAST:event_rootActionPerformed
-    private void logActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logActionPerformed
+    }
+    private void logActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"log ( ";
         Operationlabel.setText(s);
         disp.setText("log ( ");
-    }//GEN-LAST:event_logActionPerformed
-    private void lnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lnActionPerformed
+    }
+    private void lnActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"ln ( ";
         Operationlabel.setText(s);
         disp.setText("ln ( ");
-    }//GEN-LAST:event_lnActionPerformed
-    private void sinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sinActionPerformed
+    }
+    private void sinActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"sin ( ";
         Operationlabel.setText(s);
         disp.setText("sin ( ");
-    }//GEN-LAST:event_sinActionPerformed
-    private void inverseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inverseActionPerformed
+    }
+    private void inverseActionPerformed(java.awt.event.ActionEvent evt) {
         Double d= Double.parseDouble(disp.getText());
         if(d!=0)
         {
@@ -734,25 +734,25 @@ public class Calculator extends javax.swing.JFrame {
             result="Error";
         Operationlabel.setText("1/x");
         disp.setText(result);
-    }//GEN-LAST:event_inverseActionPerformed
-    private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
+    }
+    private void clearActionPerformed(java.awt.event.ActionEvent evt) {
         disp.setText("");
         Operationlabel.setText("");
         values.clear();
         ops.clear();
-    }//GEN-LAST:event_clearActionPerformed
-    private void factoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_factoActionPerformed
+    }
+    private void factoActionPerformed(java.awt.event.ActionEvent evt) {
         String s= "( "+Operationlabel.getText()+" ) !";
         Operationlabel.setText(s);
         disp.setText("");
-    }//GEN-LAST:event_factoActionPerformed
-    private void decActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_decActionPerformed
+    }
+    private void decActionPerformed(java.awt.event.ActionEvent evt) {
         result= disp.getText()+".";
         String s= Operationlabel.getText()+".";
         disp.setText(result);
         Operationlabel.setText(s);
-    }//GEN-LAST:event_decActionPerformed
-    private void backspaceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backspaceActionPerformed
+    }
+    private void backspaceActionPerformed(java.awt.event.ActionEvent evt) {
 	if(!Operationlabel.getText().equals(""))
         {
             if(!disp.getText().equals(""))
@@ -760,24 +760,24 @@ public class Calculator extends javax.swing.JFrame {
             String s=Operationlabel.getText().trim();
             Operationlabel.setText(s.substring(0, s.length()-1));
         }
-    }//GEN-LAST:event_backspaceActionPerformed
-    private void cosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cosActionPerformed
+    }
+    private void cosActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"cos ( ";
         Operationlabel.setText(s);
         disp.setText("cos ( ");
-    }//GEN-LAST:event_cosActionPerformed
-    private void OpeningbracActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OpeningbracActionPerformed
+    }
+    private void OpeningbracActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+"( ";
         Operationlabel.setText(s);
         result= disp.getText()+"( ";
         disp.setText(result);
-    }//GEN-LAST:event_OpeningbracActionPerformed
-    private void closingbracActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closingbracActionPerformed
+    }
+    private void closingbracActionPerformed(java.awt.event.ActionEvent evt) {
         String s= Operationlabel.getText()+" ) ";
         Operationlabel.setText(s);
         result= disp.getText()+" ) ";
         disp.setText(result);
-    }//GEN-LAST:event_closingbracActionPerformed
+    }
       public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
